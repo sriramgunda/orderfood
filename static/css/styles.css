@@ -53,7 +53,7 @@ a{
 .menu{
 	margin: 1% 25%;
 }
-.menu-1, .menu-item{
+.menu-category, .menu-item{
 	width: 100%;
 	margin: 5% 0%;
 }
@@ -83,4 +83,26 @@ a{
 }
 .menu-item-desc{
 	color: #4d4d4d;
+}
+.menu-item-price{
+	font-family: sans-serif;
+	padding-top: 1%;
+}
+.menu-selected-item-quantity-minus, .menu-selected-item-quantity-total, .menu-selected-item-quantity-plus{
+	display: inline-block;
+	text-align: center;
+}
+.menu-selected-item-quantity{
+	margin: 0 10%;
+	width: 60%;
+	border: 1px solid #92cfaa;
+	color: #3e8e5e;
+	font-size: 13px;
+	font-weight: bold;
+}
+.menu-selected-item-quantity-minus, .menu-selected-item-quantity-plus{
+	width: 15%;
+}
+.menu-selected-item-quantity-total{
+	width: 55%;
 }
