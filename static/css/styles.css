@@ -21,13 +21,12 @@ a{
 }
 .header-elements{
 	display: inline-block;
-	height: 120px;
 	float: left;
 }
 .header-img{
 	width: 25%;
 	padding-left: 10%;
-	height: 105px;
+	height: 80%;
 }
 .header-imglogo{
 	width: 100%;
@@ -46,6 +45,23 @@ a{
 }
 .label a{
 	color: #4aa285;
+}
+.header-label-styles{
+	font-size: 14px;
+	color: #9b9b9b;
+	margin: 1% 0;
+}
+.header-label-props{
+	display: inline-block;
+	text-align: center;
+	padding: 3%;
+	border-left: 1px solid #5f5f5f;
+}
+.fastarstyle{
+	color: #f7f7f7;	
+}
+.fastarstyle-desc{
+	font-size: 11px;
 }
 .main-body{
 	margin: 1%;
