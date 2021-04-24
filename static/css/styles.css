@@ -125,4 +125,8 @@ a{
 .menu-selected-item-quantity-total input{
 	border: 0px;
 	width: 70%;
+	color: #3e8e5e;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
 }
