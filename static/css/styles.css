@@ -72,7 +72,7 @@ a{
 	margin-left: 25%;
 	float: left;
 	display: inline-block;
-	width: 50%;
+	width: 45%;
 }
 .menu-category, .menu-item{
 	width: 100%;
@@ -141,7 +141,19 @@ a{
 	width: 25%;
 }
 .menu-cart-label{
-	text-align: center;
+	margin-top: 2%;
 	font-size: 150%;
-	color: #6a6a6a;
+	font-weight: bold;
+	color: #838383;
+}
+.empty-cart-icon{
+	color: #e4e4e4;
+	margin-top: 10%;
+	font-size: 600%;
+	text-align: center;
+}
+.empty-cart-tagline{
+	color: #c8c8c8;
+	margin-top: 10%;
+	font-size: 110%;
 }
