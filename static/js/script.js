@@ -14,7 +14,7 @@ function decrementValue(){
 	value--;
 	if (value <= 0){
 		value = 0;
-		changeCartText(txt="Empty Cart");
+		changeCartText(txt="Cart Empty");
 	}
 	else{
 		changeCartText();

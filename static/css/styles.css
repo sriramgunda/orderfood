@@ -72,7 +72,7 @@ a{
 	margin-left: 25%;
 	float: left;
 	display: inline-block;
-	width: 45%;
+	width: 42%;
 }
 .menu-category, .menu-item{
 	width: 100%;
@@ -86,13 +86,13 @@ a{
 	display: inline-block;
 }
 .meu-item-text{
-	width: 75%;
+	width: 80%;
 }
 .menu-item-imgstyle{
-	width: 24%;
+	width: 19%;
 }
 .menu-item-img{
-	width: 80%;
+	width: 100%;
 	border-radius: 10px;
 }
 .menu-veglogo-img{
@@ -115,7 +115,7 @@ a{
 }
 .menu-selected-item-quantity{
 	margin: 0 10%;
-	width: 60%;
+	width: 80%;
 	border: 1px solid #92cfaa;
 	color: #3e8e5e;
 	font-size: 13px;
@@ -135,16 +135,19 @@ a{
 	font-weight: bold;
 	text-align: center;
 }
+/*side cart css */
 .menu-cart{
 	float: left;
 	display: inline-block;
 	width: 25%;
+	border-left: 0px solid #efefef;
+	padding-left: 5%;
 }
 .menu-cart-label{
 	margin-top: 2%;
 	font-size: 150%;
 	font-weight: bold;
-	color: #838383;
+	color: #7a7a7a;
 }
 .empty-cart-icon{
 	color: #e4e4e4;
