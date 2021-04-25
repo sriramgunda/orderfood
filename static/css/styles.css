@@ -67,7 +67,12 @@ a{
 	margin: 1%;
 }
 .menu{
-	margin: 1% 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 25%;
+	float: left;
+	display: inline-block;
+	width: 50%;
 }
 .menu-category, .menu-item{
 	width: 100%;
@@ -129,4 +134,14 @@ a{
 	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
+}
+.menu-cart{
+	float: left;
+	display: inline-block;
+	width: 25%;
+}
+.menu-cart-label{
+	text-align: center;
+	font-size: 150%;
+	color: #6a6a6a;
 }

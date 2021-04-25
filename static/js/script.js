@@ -1,17 +1,28 @@
-function incrementValue()
-{
+// Increment selected item quantity
+function incrementValue(){
     var value = parseInt(document.getElementById('one').value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
     document.getElementById('one').value = value;
+	changeCartText();
 }
-function decrementValue()
-{
+
+// Decrement selected item quantity
+function decrementValue(){
     var value = parseInt(document.getElementById('one').value, 10);	
     value = isNaN(value) ? 0 : value;
 	value--;
-	if (value < 0){
+	if (value <= 0){
 		value = 0;
-	}	
-    document.getElementById('one').value = value;
+		changeCartText(txt="Empty Cart");
+	}
+	else{
+		changeCartText();
+	}
+    document.getElementById('one').value = value;	
+}
+
+//change cart label
+function changeCartText(txt="Cart Value"){
+	document.getElementById('cart-text').innerHTML = txt;
 }
