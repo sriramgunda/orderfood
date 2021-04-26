@@ -162,6 +162,11 @@ a{
 }
 .menu-cart-values{
 	width: 100%;
+	display: none;
+}
+.menu-cart-items-count{
+	margin-top: 1%;
+	margin-bottom: 10%;
 }
 .menu-cart-cols{
 	display: inline-block;

@@ -27,9 +27,11 @@ function changeCartText(txt="Cart Value"){
 	document.getElementById('cart-text').innerHTML = txt;
 	if (txt === "Cart Value"){
 		document.getElementById("empty-cart-id").style.display = "none";
+		document.getElementById("menu-cart-values-id").style.display = "block";
 	}
 	else{
 		document.getElementById("empty-cart-id").style.display = "block";
+		document.getElementById("menu-cart-values-id").style.display = "none";
 	}
 	
 }
