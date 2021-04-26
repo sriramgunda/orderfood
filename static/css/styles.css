@@ -160,3 +160,25 @@ a{
 	margin-top: 10%;
 	font-size: 110%;
 }
+.menu-cart-values{
+	width: 100%;
+}
+.menu-cart-cols{
+	display: inline-block;
+	float: left;
+}
+.menu-cart-item-type{
+	width: 5%;
+}
+.menu-cart-item-name{
+	width: 57%;
+	font-size: 80%;
+	margin-left: 5%;
+}
+.menu-cart-item-quantity{
+	width: 15%;
+}
+.menu-cart-item-cost{
+	width: 15%;
+	font-size: 80%;
+}
