@@ -168,6 +168,10 @@ a{
 	margin-top: 1%;
 	margin-bottom: 10%;
 }
+.menu-cart-items-section{
+	margin: 10% 0%;
+	overflow: hidden;
+}
 .menu-cart-cols{
 	display: inline-block;
 	float: left;
@@ -186,4 +190,11 @@ a{
 .menu-cart-item-cost{
 	width: 15%;
 	font-size: 80%;
+}
+.menu-cart-items-checkout{
+	background-color: #46ae65;
+	padding: 5%;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
 }
